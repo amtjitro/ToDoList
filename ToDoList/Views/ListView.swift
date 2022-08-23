@@ -52,6 +52,7 @@ struct ListView_Previews: PreviewProvider {
             ListView()
         }
         .environmentObject(ListViewModel())
+        .previewInterfaceOrientation(.portrait)
         
     }
 }
